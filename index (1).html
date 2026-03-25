@@ -620,8 +620,8 @@
             </div>
             
             <div class="rate-info">
-                <p><i class="fas fa-ad"></i> প্রতি বিজ্ঞাপন = ২ টাকা</p>
-                <p><i class="fas fa-gift"></i> রেফারেল বোনাস: ৫ টাকা প্রতি ব্যবহারকারী</p>
+                <p><i class="fas fa-ad"></i> প্রতি বিজ্ঞাপন = 25 টাকা</p>
+                <p><i class="fas fa-gift"></i> রেফারেল বোনাস: 120 টাকা প্রতি ব্যবহারকারী</p>
             </div>
         </div>
         
@@ -683,7 +683,7 @@
                 
                 <div class="stat-card">
                     <h3><i class="fas fa-exclamation-triangle"></i> গুরুত্বপূর্ণ নোটিশ</h3>
-                    <p>উত্তোলনের জন্য ন্যূনতম ২০ টাকা প্রয়োজন। দয়া করে উত্তোলন করার আগে নিশ্চিত হয়ে নিন।</p>
+                    <p>উত্তোলনের জন্য ন্যূনতম 1500 টাকা প্রয়োজন। দয়া করে উত্তোলন করার আগে নিশ্চিত হয়ে নিন।</p>
                     <small>১ সপ্তাহ আগে</small>
                 </div>
             </div>
@@ -721,17 +721,17 @@
 
     <script>
         // Constants
-        const POINTS_PER_AD = 2.00; // প্রতি বিজ্ঞাপনে ২ টাকা
-        const MIN_WITHDRAW_TAKA = 20; // ন্যূনতম উত্তোলন ২০ টাকা
-        const REFERRAL_BONUS = 5.00; // রেফারেল বোনাস ৫ টাকা
+        const POINTS_PER_AD =25; // প্রতি বিজ্ঞাপনে ২ টাকা
+        const MIN_WITHDRAW_TAKA = 1500// ন্যূনতম উত্তোলন ২০ টাকা
+        const REFERRAL_BONUS = 120 // রেফারেল বোনাস ৫ টাকা
         
         // Telegram Bot Configuration - এখানে আপনার বটের তথ্য দিন
-        const BOT_TOKEN = "7987524748:AAHmv52bPWjGpWLzvexVBGZ6P5vACjInNzE"; // আপনার বট টোকেন
-        const ADMIN_CHAT_ID = "7011834885"; // আপনার টেলিগ্রাম চ্যাট আইডি
+        const BOT_TOKEN = 8690148384:AAFr73o1nWx_8WsLT7CAVqS9CQlbdAwu3X8// আপনার বট টোকেন
+        const ADMIN_CHAT_ID = "7968567226"; // আপনার টেলিগ্রাম চ্যাট আইডি
         
         // Variables
-        let watchedAdsCount = 0;
-        let earnedPoints = 0.00;
+        let watchedAdsCount = 20
+        let earnedPoints = 25
         let referralCount = 0;
         let referralEarnings = 0.00;
         let userId = generateUserId();
